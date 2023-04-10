@@ -212,3 +212,50 @@ color: #6C0092;
 }
 
 /* end creativity */
+
+/* start about */
+
+.about{
+    height: 900px;
+    width: 100%;
+    background-image: url(./img/bg-about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+.contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.contant__foto{
+    width: 600px;
+    border-radius: 100px;
+}
+.contant__info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* end about */
+
+/* start footer */
+.footer{
+    height: 382px;
+    width: 100%;
+    background-color: #63F03D;
+    position: relative;
+}
+.footer__wawes{
+    width: 100%;
+    position: absolute;
+}
+.footer__logo{
+width: 121px;
+height: 47px;
+}
