@@ -344,8 +344,13 @@ transition: background-color 0.5s ease-in-out;
   justify-content: center;
   gap: 3.125rem;
 }
-.contant__foto {
+.foto__about {
   width: 600px;
+  height: 600px;
+  background-image: url(./img/aboutus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 100px;
 }
 .contant__info {
@@ -435,34 +440,6 @@ transition: color 0.5s ease;
     justify-content: space-between;
 }
 
-
-
-/* 
-.slider{
-    height: 100%;
-    margin: 50px 0 100px 0 ;
-}
-.swiper{
-    display: flex;
-    width: 1440px;
-    margin-top: 50px;
-    position: relative;
-    
-}
-
-.swiper-wrapper{
-    box-sizing: content-box;
-    margin: 0 auto;
-}
-
-.swiper-slide{
-    display: flex;
-}
-.swiper-slide img{
-    height: 500px;
-    width: 100%;
-}
- */
 .button{
     background-color: #63f03d;
     border: none;
@@ -641,12 +618,18 @@ padding-bottom: 5px;
     align-items: center;
     
 }
+.linkt{
+    color: white;
+}
 .linkt:visited {
     color: #ffffff;
   }
 .img{
     width: 50px;
     height: 50px;
+}
+.pading{
+    padding-bottom: 50px;
 }
 
 @media(max-width: 1325px){
@@ -679,6 +662,19 @@ padding-bottom: 5px;
     }
 }
 @media(max-width: 1024px){
+    .foto__about {
+        width: 400px;
+        height: 500px;
+      }
+      .dfr{
+        width: 100%;
+      }
+      .contant{display: flex;
+        flex-direction: column;
+      }
+      .contant__info{
+        justify-content: center;
+      }
     .header{
         padding: 0 25px;
     }
@@ -712,7 +708,11 @@ padding-bottom: 5px;
         height: 100%;
     }
 }
-
+@media(max-width: 865px){
+    .foto__about{
+        display: none;
+    }
+}
 @media(max-width: 768px){
     .dfr{
         display: flex;
@@ -800,6 +800,8 @@ padding-bottom: 5px;
 
     .contant__info{
         padding: 0 10px;
+        justify-content: center;
+
     }
     .nav{
         display: none;
@@ -837,6 +839,15 @@ padding-bottom: 5px;
         width: 355px;
         height: 375px;
       }
+      .art:hover {
+        transform: translateY(-24px);
+        width: 355px;
+      }
+    .art:hover::before {
+        transform: translateY(370px);
+        width: 355px;
+      }
+
     .one-foto {
         width: 355px;
         height: 375px;
@@ -853,4 +864,56 @@ padding-bottom: 5px;
         width: 355px;
         height: 375px;
       }
+       /* 2.1 */
+  .on-foto{
+    width: 355px;
+        height: 375px;
+  }
+  .tw-foto{
+    width: 355px;
+        height: 375px;
+  }
+  .tr-foto{
+    width: 355px;
+    height: 375px;
+  }
+  .fo-foto{
+    width: 355px;
+    height: 375px;
+  }
+
+/* 3.1 */
+  .ones-foto{
+    width: 355px;
+        height: 375px;
+  }
+  .twow-foto{
+    width: 355px;
+        height: 375px;
+  }
+  .treer-foto{
+    width: 355px;
+        height: 375px;
+  }
+  .foro-foto{
+    width: 355px;
+        height: 375px;
+  }
+  /* 4.1 */
+.odin-foto{
+    width: 355px;
+    height: 375px;
+}
+.dva-foto{
+    width: 355px;
+        height: 375px;
+}
+.tri-foto{
+    width: 355px;
+        height: 375px;
+}
+.chotiri-foto{
+    width: 355px;
+        height: 375px;
+}
 }
