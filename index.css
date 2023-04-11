@@ -474,6 +474,181 @@ font-size: 1.5rem;
 line-height: 2.188rem;
 color: #167642;
 }
+.garboard{
+    background-color: #63f03d;
+    border: none;
+    cursor: pointer;
+    font-family: 'Secular One';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 2.188rem;
+color: #167642;
+}
+section {
+    display: flex;
+  }
+  .for-section {
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    
+  }
+  .wrupt{
+    display: flex;
+    flex-direction: column;
+  }
+  .wrup{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .board{
+    padding: 70px 0;
+  }
+ .art{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 360px;
+    height: 500px;
+    position: relative;
+    transition: transform 0.5s;
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.5rem; 
+    color: #ffffff;
+  }
+  .art:hover {
+    transform: translateY(-24px);
+  }
+  .art:hover::before {
+    height: 6px;
+    width: 360px;
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
+    content: "";
+    transform: translateY(351px);
+  }
+  .article-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 40px 20px;
+    width: 360px;
+    height: 350px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.27%,
+      rgba(0, 0, 0, 0.661222) 100%
+    );
+  }
+  .one-foto{
+    background-image: url(./img/slider1.jpg);
+    background-size: cover;
+  }
+  .two-foto{
+    background-image: url(./img/slider2.jpg);
+    background-size: cover;
+  }
+  .tree-foto{
+    background-image: url(./img/slider3.jpg);
+    background-size: cover;
+  }
+  .for-foto{
+    background-image: url(./img/slider5.jpg);
+    background-size: cover;
+  }
+
+  /* 2.1 */
+  .on-foto{
+    background-image: url(./img/slider2.1.jpg);
+    background-size: cover;
+  }
+  .tw-foto{
+    background-image: url(./img/slider2.2.jpg);
+    background-size: cover;
+  }
+  .tr-foto{
+    background-image: url(./img/slider2.3.jpg);
+    background-size: cover;
+  }
+  .fo-foto{
+    background-image: url(./img/slider2.4.jpg);
+    background-size: cover;
+  }
+
+/* 3.1 */
+  .ones-foto{
+    background-image: url(./img/slider3.1.jpg);
+    background-size: cover;
+  }
+  .twow-foto{
+    background-image: url(./img/slider3.2.jpg);
+    background-size: cover;
+  }
+  .treer-foto{
+    background-image: url(./img/slider3.3.jpg);
+    background-size: cover;
+  }
+  .foro-foto{
+    background-image: url(./img/slider3.4.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  /* 4.1 */
+.odin-foto{
+    background-image: url(./img/slider4.1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.dva-foto{
+    background-image: url(./img/slider4.2.jpg);
+    background-size: cover;
+}
+.tri-foto{
+    background-image: url(./img/slider4.3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.chotiri-foto{
+    background-image: url(./img/slider4.4.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+  .author-sec{
+    font-family: 'Secular One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+border-bottom: #19e706 solid 1px;
+padding-bottom: 5px;
+
+  }
+  .author-sec + .linkt {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.linkt:visited {
+    color: #ffffff;
+  }
+.img{
+    width: 50px;
+    height: 50px;
+}
+
 @media(max-width: 1325px){
     .garbage__right{
         display: flex;
@@ -612,6 +787,7 @@ color: #167642;
 
 }
 @media(max-width:425px){
+    
     .size__garbage{
         max-width: 325px;
     }
@@ -648,4 +824,33 @@ color: #167642;
     .author{
         padding: 0;
     }
+    .garbage{
+        padding-top: 20px;
+    }
+    .wawes{
+        display: none;
+    }
+    .wawes-in{
+        display: none;
+    }
+    .article-div {
+        width: 355px;
+        height: 375px;
+      }
+    .one-foto {
+        width: 355px;
+        height: 375px;
+      }
+      .two-foto {
+        width: 355px;
+        height: 375px;
+      }
+      .tree-foto {
+        width: 355px;
+        height: 375px;
+      }
+      .for-foto {
+        width: 355px;
+        height: 375px;
+      }
 }
