@@ -434,11 +434,7 @@ transition: color 0.5s ease;
     flex-direction: column;
     justify-content: space-between;
 }
-.dfr{
-    display: flex;
-    
-   width: 100%;
-}
+
 
 
 /* 
@@ -478,7 +474,35 @@ font-size: 1.5rem;
 line-height: 2.188rem;
 color: #167642;
 }
-
+@media(max-width: 1325px){
+    .garbage__right{
+        display: flex;
+        align-items: center;
+    }
+    /* .order{
+        order: 1 2;
+    }
+    .order__1{
+        order: 0;
+    } */
+    .size__garbage{
+        max-width: 570px;
+    }
+    .size__track{
+        max-width: 570px;
+    }
+    .size__tractor{
+        max-width: 570px;
+    }
+}
+@media(max-width: 1275px){
+     .order{
+        order: 1 2;
+    }
+    .order__1{
+        order: 0;
+    }
+}
 @media(max-width: 1024px){
     .header{
         padding: 0 25px;
@@ -515,6 +539,11 @@ color: #167642;
 }
 
 @media(max-width: 768px){
+    .dfr{
+        display: flex;
+        
+       width: 100%;
+    }
     .header{
         padding: 0 10px;
     }
@@ -543,5 +572,80 @@ color: #167642;
     }
     .author{
         padding: 0 60px 0 0;
+    }
+}
+
+@media(max-width:580px){
+    .mini{
+        text-align: center;
+    }
+    .garbage__left{
+        gap: 1.7rem;
+    }
+    .title{
+        font-size: 2.8rem;
+        width: 100%;
+    }
+    .paragraf{
+        font-size: 1.4rem;
+    }
+.garbage__right{
+    display: none;
+}
+.garbage-university__paragraf{
+    padding: 0 10px;
+    
+}
+.paragraf{
+    width: 100%;
+}
+.creativity__paragraf{
+    width: 100%;
+    padding: 0 10px;
+}
+.container{
+    padding-left: 30px;
+}
+.author{
+    padding: 0 30px 0 0;
+}
+
+}
+@media(max-width:425px){
+    .size__garbage{
+        max-width: 325px;
+    }
+    .size__track{
+        max-width: 325px;
+    }
+    .size__tractor{
+        max-width: 325px;
+    }
+
+    .contant__info{
+        padding: 0 10px;
+    }
+    .nav{
+        display: none;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: start;
+    }
+    .nivigat{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        padding: 20px 0 40px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .links__logo{
+        justify-content: center;
+        align-items: center;
+    }
+    .author{
+        padding: 0;
     }
 }
