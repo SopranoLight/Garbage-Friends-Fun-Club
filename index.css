@@ -52,7 +52,7 @@ body {
 }
 .nav{
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
 }
 .logo{
     display: flex;
@@ -78,14 +78,14 @@ body {
 .links {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 3.125rem;
 }
 .link {
   font-family: "Secular One";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
+  font-size: 1.5rem;
+  line-height: 2.188rem;
   color: #167642;
   transition: opacity 0.5s ease-in-out;
 }
@@ -103,13 +103,13 @@ body {
   /* flex-wrap: wrap; */
   height: 100%;
   width: 100%;
-  gap: 60px;
+  gap: 3.75rem;
   padding-top: 160px;
 }
 .garbage__left {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 3.125rem;
   padding: 30px 50px 50px 50px;
 }
 .title {
@@ -117,8 +117,8 @@ body {
   font-family: "Chewy";
   font-style: normal;
   font-weight: 400;
-  font-size: 62px;
-  line-height: 81px;
+  font-size: 3.875rem;
+  line-height: 5.063rem;
   text-align: left;
   letter-spacing: 0.1em;
   color: #000000;
@@ -127,8 +127,8 @@ body {
   font-family: "Secular One";
   font-style: normal;
   font-weight: 400;
-  font-size: 42px;
-  line-height: 61px;
+  font-size: 2.625rem;
+  line-height: 3.813rem;
   text-align: center;
   color: #000000;
 }
@@ -137,8 +137,8 @@ body {
   font-family: "Secular One";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 50px;
+  font-size: 1.5rem;
+  line-height: 3.125rem;
   letter-spacing: 0.05em;
   color: #000000;
 }
@@ -154,8 +154,8 @@ body {
   font-family: 'Secular One';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
-line-height: 40px;
+font-size: 1.125rem;
+line-height: 2.5rem;
 text-align: center;
 color: #156904;
 transition: background-color 0.5s ease-in-out;
@@ -225,8 +225,8 @@ transition: background-color 0.5s ease-in-out;
     font-family: "Chewy";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
     letter-spacing: 0.1em;
     color: #ffffff;
     margin-right: 20px;
@@ -248,7 +248,7 @@ transition: background-color 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 150px;
+  gap: 9.375rem;
   align-items: center;
   margin-bottom: 100px;
 }
@@ -257,7 +257,8 @@ transition: background-color 0.5s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 142px;
+  gap: 8.875rem;
+  flex-wrap: wrap;
 }
 .garbage-university__foto {
   max-width: 510px;
@@ -265,7 +266,7 @@ transition: background-color 0.5s ease-in-out;
 .garbage-university__paragraf {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 1.563rem;
 }
 
 /* end garbage-university */
@@ -275,28 +276,29 @@ transition: background-color 0.5s ease-in-out;
 .creativity {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 3.75rem;
   margin-bottom: 80px;
 }
 
 .creativity__section {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 3.75rem;
+  flex-wrap: wrap;
 }
 .creativity__info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 600px;
-  gap: 20px;
+  gap: 1.25rem;
 }
 .info__title {
   font-family: "Secular One";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 47px;
+  font-size: 2rem;
+  line-height: 2.938rem;
   text-align: center;
   color: #6c0092;
 }
@@ -334,13 +336,13 @@ transition: background-color 0.5s ease-in-out;
   padding-top: 90px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 3.75rem;
 }
 .contant {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 3.125rem;
 }
 .contant__foto {
   width: 600px;
@@ -349,7 +351,7 @@ transition: background-color 0.5s ease-in-out;
 .contant__info {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 1.875rem;
 }
 /* end about */
 
@@ -380,13 +382,13 @@ transition: background-color 0.5s ease-in-out;
 .container{
     padding: 180px 0 130px 150px;
     display: flex; 
-    gap: 110px;
+    gap: 6.875rem;
     z-index: 10;
 }
 .df{
     flex-direction: column;
     align-items: start;
-    gap: 20px;
+    gap: 1.25rem;
 }
 .wawes-footer{
     height: 100%;
@@ -398,7 +400,7 @@ transition: background-color 0.5s ease-in-out;
     display: flex; 
     flex-direction: column;
     align-items: center;
-    gap: 7px;
+    gap: 0.438rem;
     padding: 0 130px 0 0;
 }
 
@@ -406,16 +408,16 @@ transition: background-color 0.5s ease-in-out;
 font-family: 'Secular One';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
-line-height: 35px;
+font-size: 1.5rem;
+line-height: 2.188rem;
 color: rgba(7, 122, 46, 0.6);
 }
 .footer__author{
     font-family: 'Secular One';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
-line-height: 26px;
+font-size: 1.125rem;
+line-height: 1.625rem;
 color: rgba(7, 122, 46, 0.5);
 transition: color 0.5s ease;
 }
@@ -432,7 +434,11 @@ transition: color 0.5s ease;
     flex-direction: column;
     justify-content: space-between;
 }
-
+.dfr{
+    display: flex;
+    
+   width: 100%;
+}
 
 
 /* 
@@ -468,7 +474,74 @@ transition: color 0.5s ease;
     font-family: 'Secular One';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
-line-height: 35px;
+font-size: 1.5rem;
+line-height: 2.188rem;
 color: #167642;
+}
+
+@media(max-width: 1024px){
+    .header{
+        padding: 0 25px;
+    }
+    .garbage__right{
+        display: flex;
+        align-items: center;
+    }
+    .garbage-university__foto{
+        max-width: 300px;
+    }
+    .garbage-university__info{
+        gap: 5px;
+    }
+    .order{
+        order: 1 2;
+    }
+    .order__1{
+        order: 0;
+    }
+    .contant{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .contant__foto{
+        /* width: 400px;
+        height: 400px; */
+        display: none;
+    }
+    .contant__info{
+        max-width: 400px;
+        height: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    .header{
+        padding: 0 10px;
+    }
+    .garbage{
+        gap: 0;
+    }
+    .garbage__left{
+        padding: 0 20px;
+    }
+    .garbage-university{
+        gap: 40px;
+    }
+
+    .container{
+        padding-left: 60px;
+        gap: 40px;
+    }
+    .size__garbage{
+        max-width: 420px;
+    }
+    .size__track{
+        max-width: 420px;
+    }
+    .size__tractor{
+        max-width: 420px;
+    }
+    .author{
+        padding: 0 60px 0 0;
+    }
 }
